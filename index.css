@@ -139,6 +139,7 @@ margin: 20px 94px 30px 94px;
 }
 .Our_plants_container{
     height: 1200px;
+    margin-bottom: 400px;
 }
 
 
@@ -149,6 +150,47 @@ margin: 20px 94px 30px 94px;
 }
 .margin {
     margin-top: 50px;
+}
+
+/* Trusted Section */
+.trusted{
+
+position: relative;
+display: flex;
+height: 600px;
+margin-top: 200px;
+gap: 60px;
+
+}
+.trusted_text h1{
+   font-weight: bold;
+   font-size: 3rem; 
+}
+.trusted_text {
+    width: 540px;
+height: 521px;
+margin: 38px 0 38px 25;
+}
+.point{
+    color: #8987A1;
+}
+.trusted_text ul li {
+    gap: 20px;
+    margin-top: 20px;
+}
+.point {
+    font-size: 1.5rem;
+    
+}
+.trust{
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    color: #000000;
+    position: absolute;
+    right: 43%;
+    bottom: 81%;
+    transform: translate(-0% -100%);    
 }
 
 
@@ -225,7 +267,50 @@ color:#E95A08 ;
     height: auto;
   }
 
+/* Trusted */
+.trusted {
+    margin-top: 100px; /* not 3600px! */
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 20px;
+    padding: 0 16px;
+    overflow-x: hidden;
+  }
 
+  .trusted_text {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+.trusted_text h1 {
+    font-size: 1.5rem;
+}
+  .trusted_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .point {
+    font-size: 1rem;
+  }
+
+  .trusted_text ul li {
+    margin-top: 10px;
+  }
+
+  .trust {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    display: block;
+  }
+.hide{
+    display: none;
+}
 
 
 
