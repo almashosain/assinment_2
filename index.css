@@ -1,5 +1,9 @@
-
-
+*:not(.last_content,){
+   background: rgb(245, 248, 255);;
+}
+* {
+  box-sizing: border-box;
+}
 
 
 header{
@@ -235,9 +239,9 @@ margin: 38px 0 38px 25;
 .join_h2{
     font-size: 3rem;
     font-weight: bold;
-    background-color:transparent;
+    background-color: transparent;
     color: white;
-
+    
 }
 .input_section{
     width: 830px;
@@ -257,18 +261,69 @@ margin: 38px 0 38px 25;
     color: white;
     border: none;
 }
-
-
+/* Footer Section */
+footer{
+    margin: 50px 160px;
+}
+.footer_logo{
+   width: 350px;
+   height: 170px; 
+}
+.all_footer {
+    display: flex;
+    justify-content: space-around;
+}
+.social_media_logos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer_link_one{
+    width: 150px;
+    height: 248px;
+    color: rgba(107, 114, 128, 1);
+}
+.footer_link_one ul li {
+    list-style: none;
+}
+.footer_link_two{
+    width: 150px;
+    height: 248px;
+    color: rgba(107, 114, 128, 1);
+}
+.footer_link_two ul li {
+    list-style: none;
+}
+.footer_link_one,
+.footer_link_two,
+.footer_logo {
+  max-width: 350px; 
+  width: 100%;
+}
+.footer_link_one li,
+.footer_link_two li {
+  margin-bottom: 30px;
+}
+footer {
+  margin: 50px 160px;
+}
+.all_footer{
+ max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px; 
+}
 /* Shared  */
 .orange{
 color:#E95A08 ;
-
-
 }
-
-
-
-
+.text_color {
+    color: rgba(0, 0, 0, 0.5);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 
 
@@ -394,10 +449,40 @@ color:#E95A08 ;
     font-size: 1.25rem;
     font-weight: bold;
 } 
+/* footer */
+.all_footer{
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 0 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer_logo, .footer_link_one , .footer_link_two , .social_media_logos {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.social_media_logos {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 
+  ul, li {
+    text-align: left;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  footer {
+    margin: 20px; 
   }
 
 
+  
 
-
+  }
+  
 
