@@ -1,5 +1,5 @@
 *:not(.last_content,){
-   background: rgb(245, 248, 255);;
+   background-color: rgb(245, 248, 255);
 }
 * {
   box-sizing: border-box;
@@ -8,7 +8,9 @@
     margin: 0;
     padding: 0;
 }
-
+.bg{
+    background-color: rgb(245, 248, 255);
+}
 header{
     margin-top: 30px;
 }
@@ -217,7 +219,88 @@ margin: 38px 0 38px 25;
 /* image section */
 
 
+.img_setup {
+  margin-top: 120px;
+  padding: 10px;
+  overflow-x: hidden;
+  margin-bottom: 150px;
+}
 
+/* Flex for two columns */
+.img_1 {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+
+/* Left Column with 2 images */
+.img_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+}
+
+/* Right Column */
+.img_3 {
+  width: 55%;
+}
+
+/* Shared Wrapper  */
+.image_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  filter: brightness(0.7);
+  display: block;
+}
+
+/* Text Overlay */
+.bloom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Heading */
+.text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.large_text {
+  font-size: 2rem;
+}
+
+/* Button */
+.shop_btn {
+  color: white;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+
+.large_btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 
 
 
@@ -388,8 +471,14 @@ html, body {
   }
 
   .Our_plants_container {
+    margin: 0;
     height: auto;
   }
+
+
+
+
+
 
   .sample_img {
     height: auto;
@@ -441,9 +530,18 @@ html, body {
 }
 /* imaghe section */
 
-
-
-
+.img_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.img_2 {
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+     
+}
 
 
 
@@ -490,11 +588,19 @@ html, body {
   }
 
   footer {
-    margin: 20px; 
+    margin: 0;
+    padding: 0;
   }
+.all_footer{
+    margin: 0;
 
-
-  
+}
+.footer_link_one{
+    margin-left: 0;
+}
+.footer_link_two{
+    margin-left: 0;
+}  
 
   }
   
