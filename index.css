@@ -4,7 +4,10 @@
 * {
   box-sizing: border-box;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 header{
     margin-top: 30px;
@@ -64,6 +67,7 @@ header{
 }
 .banner_header{
     font-size: 4rem;
+    margin-bottom: -10px;
 }
 .banner_style{
     color: #E95A08;
@@ -71,6 +75,7 @@ header{
 .banner_p{
 color: #8987A1;
 font-size: 1.37rem;
+margin-bottom: 100px;
 }
 .banner_img{
     width: 100%;
@@ -81,7 +86,6 @@ font-size: 1.37rem;
   height: auto;
   display: block;
 }
-
 
 /* Our Plants */
 .our_plants h2 {
@@ -100,7 +104,7 @@ font-size: 1.37rem;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 146px;
+    margin-top: 50px;
 }
 .sample_img{
     width: 100%;
@@ -118,7 +122,7 @@ font-size: 1.37rem;
 .sample_img_Price {
     margin-top:30px ;
     flex-grow: 1;
-    padding: 10px;
+    padding: -2px;
 }
 .sample_img_Price h4 {
     font-size: 1.375rem;
@@ -162,7 +166,7 @@ margin: 20px 94px 30px 94px;
 position: relative;
 display: flex;
 height: 600px;
-margin-top: 200px;
+margin-top: 50px;
 gap: 60px;
 
 }
@@ -256,7 +260,7 @@ margin: 38px 0 38px 25;
 }
 .input_btn{
     width: 160px;
-    height: 55px;
+    height: 50px;
     background-color: rgb(233, 90, 8);
     color: white;
     border: none;
@@ -311,6 +315,15 @@ footer {
  max-width: 1140px;
   margin: 0 auto;
   padding: 0 16px; 
+}
+.footer_link_one{
+    margin-left: 50px;
+}
+.footer_link_two{
+    margin-left: 50px;
+}
+.twitter{
+    margin-top: 10px;
 }
 /* Shared  */
 .orange{
